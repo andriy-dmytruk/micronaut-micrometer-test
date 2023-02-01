@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: micronautMicrometerTest
+  metrics:
+    export:
+      cloudwatch:
+        enabled: true
+    enabled: true
+netty:
+  default:
+    allocator:
+      max-order: 3
